@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>දහම් පද මාලාව</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+                <!--========== BOX ICONS ==========-->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+                <!--========== CSS ==========-->
+                <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+<nav
+    class="navbar navbar-expand-md navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/img/dpm_logo.png" width="30"></a>
+        <button  class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Home
+                        <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#intro">හැදින්වීම</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#vishaya_karunu">විෂය කරුණු</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#download">Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contents">පටුන</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle"
+                        href="#"
+                        id="dropdownId"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">පොතේ කොටස්</a                    >
+                    <div  class="dropdown-menu"      aria-labelledby="dropdownId">
+                        <a href="#p1_160" class="dropdown-item">අ කොටස </a>
+                        <a href="#p160_301" class="dropdown-item">ඉ - ජ කොටස් </a>
+                        <a href="#p301_472" class="dropdown-item">ඤ - ණ කොටස් </a>
+                        <a href="#p472_616" class="dropdown-item">ප - බ කොටස් </a>
+                        <a href="#p616_750" class="dropdown-item">භ - ල කොටස්</a>
+                        <a href="#p750_968" class="dropdown-item">ඉ - ඤ කොටස්</a>
+                        <a href="#p968_1017" class="dropdown-item">ව - හ කොටස්</a>
+                        <a href="#p1018_end" class="dropdown-item">උපග්‍රන්ථ සහ සිතියම්</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">We can change the navigation content</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--========== NAV Sidebar ==========-->
+<div class="nav" id="navbar">
+    <nav class="nav__container">
+        <div>
+            <a href="#" class="nav__link nav__logo">
+                <i class='bx bx-home nav__icon' ></i>
+                <span class="nav__logo-name"><img src="assets/img/dpm_logo.png" width="30"></span>
+            </a>
+
+            <div class="nav__list">
+                <div class="nav__items">
+                    <!--
+                    <h3 class="nav__subtitle">Profile</h3>
+                    -->
+                    <a href="#intro" class="nav__link active">
+                        <i class='bx bx-home-alt-2 nav__icon' ></i>
+                        <span class="nav__name">හැදින්වීම</span>
+                    </a>
+                    <a href="#vishaya_karunu" class="nav__link">
+                        <i class='bx bx-bookmark nav__icon' ></i>
+                        <span class="nav__name">විෂය කරුණු</span>
+                    </a>
+
+                    <a href="#about" class="nav__link">
+                        <i class='bx bx-book-content nav__icon' ></i>
+                        <span class="nav__name">About</span>
+                    </a>
+
+                    <a href="#download" class="nav__link">
+                        <i class='bx bx-download nav__icon' ></i>
+                        <span class="nav__name">Download</span>
+                    </a>
+                    <a href="#contents" class="nav__link">
+                        <i class='bx bx-bookmarks nav__icon' ></i>
+                        <span class="nav__name">පටුන</span>
+                    </a>
+
+
+                </div>
+
+                <div class="nav__items">
+                    <!--
+                    <h3 class="nav__subtitle">Menu</h3>
+                    -->
+                    <div class="nav__dropdown">
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-book-open nav__icon' ></i>
+                            <span class="nav__name">පොතේ කොටස්</span>
+                            <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                        </a>
+
+                        <div class="nav__dropdown-collapse">
+                            <div class="nav__dropdown-content">
+                                <a href="#p1_160" class="nav__dropdown-item">අ කොටස </a>
+                                <a href="#p160_301" class="nav__dropdown-item">ඉ - ජ කොටස් </a>
+                                <a href="#p301_472" class="nav__dropdown-item">ඤ - ණ කොටස් </a>
+                                <a href="#p472_616" class="nav__dropdown-item">ප - බ කොටස් </a>
+                                <a href="#p616_750" class="nav__dropdown-item">භ - ල කොටස්</a>
+                                <a href="#p750_968" class="nav__dropdown-item">ඉ - ඤ කොටස්</a>
+                                <a href="#p968_1017" class="nav__dropdown-item">ව - හ කොටස්</a>
+                                <a href="#p1018_end" class="nav__dropdown-item">උපග්‍රන්ථ සහ සිතියම්</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#sponsor" class="nav__link">
+                        <i class='bx bxs-institution nav__icon' ></i>
+                        <span class="nav__name">අනුග්‍රහය</span>
+                    </a>
+                    <a href="#contact" class="nav__link">
+                        <i class='bx bxs-contact nav__icon' ></i>
+                        <span class="nav__name">Contact</span>
+                    </a>
+                
+                </div>
+            </div>
+        </div>        
+    </nav>
+</div>
+
+        </header>
+        <main>
+        <div class="container-fluid" style="padding-top: 50px">
+
+            <div  class="row justify-content-center align-items-start g-2">
+
+                <div  class="col-md-8">
+                    <center><h1><b>දහම් පද මාලාව</b></h1></center>
+                    
+                    <section>
+                        <center>
+                        <p></p>
+            
+                        <h2>නමෝ තස්ස භගවතෝ අරහතෝ සම්මා</h2>
+                        <h2>සම්බුද්ධස්ස </h2>
+                        <h2>භාග්‍යවත්වූ අර්හත්වූ සම්මා සම්බුදුරජාණන් </h2>
+                        <h2>වහන්සේට</h2>
+                        <h2>අපගේ නමස්කාරය වේවා!!!</h2>
+                        <img src="assets/img/lotus.jpg">
+                        </center>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <h1 id="intro"><center><b>හැදින්වීම</b></center></h1>
+                        <p>පසුගිය වසර කිහිපයේදී
+                            ත්‍රිපිටකය හදාරනවිට අපගේ විශේෂ අවධානයට
+                            හසුවූ දහම්පද හා ඒවාට අදාළ කරුණු ඇතුලත්කර සටහන් ගොනුවක්
+                            සකස්කරන ලදී. දහම් පද මාලාව එම සටහන් එකතු කර පිළියෙළ කළ
+                            සංසේකරණයකි. මේ කෘතියේ මූලික පරමාර්ථය, සිංහලෙන් දහම
+                            ඉගනගන්නා කෙනෙකුට සූත්‍රවල සඳහන් විෂය කරුණු පහසුවෙන්
+                            සොයාගැනීමට උපකාරිවිමය.</p>
+                        <p>▲ යමහිදී සංහල හා පාලි වචන හා විසේතර එකතුකර ැනීමට මූලිකව 
+                            භාවිතා කයළේ බුද්ධ ජයන්ති ත්‍රිපිටක යපාත් යපළය:</p>
+                        <p>දීඝනිකාය: <b>දීඝ.නි.</b> </p>
+                        <p>මජ්ජිමනිකාය:ම.නි. </p>
+                        <p>සංයුත්තනිකාය: සංයු.නි.</p>
+                        <p>අංගුත්තරනිකාය:අංගු.නි. </p>
+                        <p>ඛුද්දකනිකාය: ඛු.නි	</p>
+                        <p>විනයපිටකය: වින.පි.</p>
+                        <p>අභිධර්මපිටකය: අභි.ධ.පි.</p>
+                        <p>▼ ඉංග්‍රීසයයන් ලියවුන මතු සඳහන් කෘතින්, සූත්‍ර විසේතර පැහැදිලි කර ැනීම පිණිස භාවිතා කරනලදී:</p>
+                        <p>Anguttara Nikaya: EAN</p>
+                        <p>	DighaNikaya: EDN </p>
+                        <p>MajjhimaNikaya: EMN	</p>
+                        <p>SamyuttaNikāya: ESN</p>
+                        <p>සටහන: පරිහරණය කල ත්‍රිපිටක යපාත් විසේතර ආශ්‍රිත ග්‍රන්ථ යටයත් දක්වා ඇත.</p>
+                        <p>▲ පරිහරණය කළ ශබ්දවකෝෂ:</p>
+                        <p>▼ සංහල ශබ්දවකෝෂය:</p>
+                        <li>පා.සං.ශ: “පාලි-සංහල බ්දයකෝෂය”: මඩිතියයවල සරි සුමං ල හිමි.</li>
+
+
+                        <p>▼English Dictionaries:<p>
+                        <ul>
+                            <li>B. D: “Buddhist Dictionary”: Manual of Buddhist Terms &
+                            Doctrines by Ven.Nyanatiloka</li> 
+                            <li>E.P.D: “English-Pāli Dictionary” by A. P. Buddhadatta Mahathera</li>
+                            <li>G.B: “The Seeker’s Glossary of Buddhism” by Buddha Dharma
+                            Education Association</li>
+                            <li>P.T.S: “Pāli English Dictionary” by The Pali Text Society</li>
+                        </ul>
+                    </section>
+                  
+                    <section id="vishaya_karunu">
+                        <h1><center>විෂය කරුණු</center></h1>
+
+                        <p>▲ විෂය කරුණු යකාටසේ කර ඇත්යත් සංහල අකාරාදියට අනුවය:</p>
+                        <p>අ,ඉ,උ,ඍ,එ,ඔ,ක,ඛ,ග,ඝ,ච,ඡ,ජ,ඤ,ඥ,
+                        ඨ,ත,ථ,ද,ධ,න,ප,බ,භ,ම,ය,ර,ල,ව,ස,ශ,ෂ,හ</p>
+                        <div>
+                            උදාහරන: අ අකුරඇතුලත් මුලික පද ඉදිරිපත් කර ඇත්යත්: අ වකාටස යලසන්ය. ඉ අකුර ඇතුලත් මුලික පද ඉදිරිපත් කර ඇත්යත්: ඉ වකාටස යලසන්ය
+                            <p>▲ උපග්‍රන්තථ</p>
+                            විෂය කරුණු සම්බන්ධ අතියර්ක විසේතර උපග්‍රන්ථ යලසන් ඉදිරිපත්කර ඇත:
+                            <ul>
+                                <li>උපග්‍රන්තථය 1: ශ්‍රාවක භික්ඛු සංඝ</li>
+                                <li> උපග්‍රන්තථය 2: ශ්‍රාවක භික්ුණි සංඝ </li>
+                                <li>උපග්‍රන්තථය 3: බුදුන්සරණ ගිය උපාසක උපාසකා </li>
+                                <li>උපග්‍රන්තථය 4: බුදුසසුන අත්හල සංඝයා </li>
+                                <li>උපග්‍රන්තථය 5: උපමා විසේතර උපග්‍රන්තථය6: අපයේ
+                                ය ෝතම බුදුන් වහන්යසේ පිලිබඳ මුලික විසේතර.</li>
+                            </ul>
+
+
+                        </div>
+
+                    </section>
+                    <center>
+                    <section id="contents">
+                        <h1>පටුන</h1>
+                        <h6>The following is an image. We can improve that 
+                            using text.
+                        </h6>
+                        <img src="assets/img/dpm_contents.jpg">
+                    </section>
+                    </center>
+                    
+                    <section>
+                        <h1>පොතේ කොටස්</h1>
+                        <h6>The following links takes you several pdf files. We can improve 
+                            that using a series of files containing text.
+                        </h6>
+                        <ul>
+                            <li id = "p1_160"><a href="assets/pdfs/pages_1_160.pdf" target="_blank">අ කොටස (පිටු 1 සිට 160)</a>.</li>
+                            <li id = "p160_301"><a href="assets/pdfs/pages_160_301.pdf" target="_blank">ඉ - ජ කොටස් (පිටු 160 සිට 301)</a>.</li>
+                            <li id = "p301_472"><a href="assets/pdfs/pages_301_472.pdf" target="_blank">ඤ - ණ කොටස් (පිටු 301 සිට 472)</a>.</li>
+                            <li id = "p472_616"><a href="assets/pdfs/pages_472_616.pdf" target="_blank">ප - බ කොටස් (පිටු 472 සිට 616)</a>.</li>
+                            <li id = "p616_750"><a href="assets/pdfs/pages_616_750.pdf" target="_blank">භ - ල කොටස් (පිටු 616 සිට 750)</a>.</li>
+                            <li id = "p750_968"><a href="assets/pdfs/pages_750_968.pdf" target="_blank">ඉ - ඤ කොටස් (පිටු 750 සිට 968)</a>.</li>
+                            <li id = "p969_1017"><a href="assets/pdfs/pages_969_1017.pdf" target="_blank">ව - හ කොටස් (පිටු 969 සිට 1017)</a>.</li>
+                            <li id = "p1018_end"> <a href="assets/pdfs/pages_1018_end.pdf" target="_blank">උපග්‍රන්ථ සහ සිතියම් (පිටු 1018 සිට 1247)</a>.</li>
+                        </ul>
+                    </section>
+                </div>
+                
+                <div  class="col-md-4 ">
+                    <section id="support">
+                        <h1>අනුග්‍රහය</h1> 
+                        <p>ශාන්ති-භික්ඛුණි වනආරණ්‍ය සේනාසනය</p>    
+                        <p>නිව් සවුත් වේල්ස් ප්‍රාන්තය</p>
+                        <p></p>ඕස්ට්රේලියාව
+                        
+                        <p></p>වෙබ්අඩවිය: www.santifm.org
+                        <p></p>Email: santioffice@gmail.com
+                        <p>ලිපිනය: P.O .Box 132 100 Coalmines Road NSW 2578 Australia</p>
+        
+                        <h3>Supported by</h3>
+                        <p>Santi - Buddhist Nuns Forest Monastery</p>
+                        <p>P.O .Box 132 100 Coalmines Road NSW 2578 Australia</p>
+                    </section>
+                    <section id = "download">
+        
+                        <h1 id = "downloady">Download</h1>
+                        <p>The full text is avaiable at <a href="assets/pdfs/DhamaPadaMalawa.pdf" target="_blank">DhamaPadaMalawa.pdf.</a></p>
+                    </section>
+
+                    <section id = "about">
+                        <h1>About</h1>
+                        <p>To be added.</p>
+                    </section>
+
+                    <section id="contact">
+                        <h1>Contact</h1>
+                        <p>To be added</p>
+                    </section>
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+
+
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
