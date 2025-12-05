@@ -31,6 +31,34 @@
             <link rel="manifest" href="/assets/favicon//site.webmanifest">
 
             <style>
+            :root {
+                --primary-color: #8B4513;
+                --secondary-color: #CD853F;
+                --accent-color: #D2691E;
+                --light-color: #F5F5DC;
+                --dark-color: #5D4037;
+                --text-color: #333;
+                --white: #fff;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: 'Noto Sans Sinhala', sans-serif;
+                /* font-family: 'Abhaya Libre', sans-serif; */
+                line-height: 1.6;
+                color: var(--text-color);
+                background-color: var(--light-color);
+            }
+            .container {
+                max-width: 1000px;
+                margin: 0 auto;
+                padding: 2rem;
+            }    
             .btn {
                 background-color: rgb(76, 243, 10);
                 font-size: 18px;
@@ -76,15 +104,10 @@
         }
         .keywordseg {
             margin-left: 10px;
-            max-width: 75ch;
         }
         .subkeyword {
             margin-left: 20px;
-            max-width: 70ch;
         }
-
-        
-
     </style>
     <title>උ කොටස, ඍ කොටස, එ කොටස සහ ඔ කොටස</title>
 </head>
@@ -163,7 +186,7 @@
         </nav>
 
     </header>
-    <main>
+    <div class="container">
 
 <br><br><br>
 <h1>උ කොටස, ඍ කොටස, එ කොටස සහ ඔ කොටස</h1>
@@ -769,7 +792,7 @@
 <p><div class="subkeyword"></div></p>
 <p><div class="subkeyword"></div></p>
 
-</main>
+</div>
         <footer>
             <!-- place footer here -->
         </footer>

@@ -33,6 +33,34 @@ html_head_1 = """<!DOCTYPE html>
             <link rel="manifest" href="/assets/favicon//site.webmanifest">
 
             <style>
+            :root {
+                --primary-color: #8B4513;
+                --secondary-color: #CD853F;
+                --accent-color: #D2691E;
+                --light-color: #F5F5DC;
+                --dark-color: #5D4037;
+                --text-color: #333;
+                --white: #fff;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: 'Noto Sans Sinhala', sans-serif;
+                /* font-family: 'Abhaya Libre', sans-serif; */
+                line-height: 1.6;
+                color: var(--text-color);
+                background-color: var(--light-color);
+            }
+            .container {
+                max-width: 1000px;
+                margin: 0 auto;
+                padding: 2rem;
+            }    
             .btn {
                 background-color: rgb(76, 243, 10);
                 font-size: 18px;
@@ -161,12 +189,12 @@ html_head_2 = """
         </nav>
 
     </header>
-    <main>
+    <div class="container">
 
 """
 
 html_tail = """
-</main>
+</div>
         <footer>
             <!-- place footer here -->
         </footer>
