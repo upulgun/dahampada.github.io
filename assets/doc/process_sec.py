@@ -57,7 +57,7 @@ html_head_1 = """<!DOCTYPE html>
                 background-color: var(--light-color);
             }
             .container {
-                max-width: 1000px;
+                max-width: 1050px;
                 margin: 0 auto;
                 padding: 2rem;
             }    
